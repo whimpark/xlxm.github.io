@@ -17,7 +17,12 @@ body{
         &_before{
             height: 100px;
             color: #fff;
-            background-color: #333;
+            background-color: #333; 
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+            font-size: 32px;
+            font-weight: bold;
         }
         &_after{ 
             height: 60px;
@@ -27,5 +32,17 @@ body{
         }
     }
 
+    .post-item{
+        padding: 20px 20px;
+        a{
+            padding: 5px  ;
+        }
+    }
+
 }
+
+
+
+
+
 
