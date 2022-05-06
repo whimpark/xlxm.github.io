@@ -33,7 +33,16 @@ body{
     }
 
     .post-item{
-        padding: 5; 
+        padding: 10px; 
+        display: flex;
+        .title{
+            flex: 1;
+            text-align: left;
+        }
+        .date{
+            text-align: right;
+            color: #999;
+        }
     }
 
 }

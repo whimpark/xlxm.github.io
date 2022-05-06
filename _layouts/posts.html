@@ -4,9 +4,15 @@ layout: default
 
 {% for post in site.posts %}
 <div class="post-item"  >
-  <a href="{{post.url | absolute_url}}">
-    {{post.title}}  [{{ post.date | date: "%Y%m%d" }}]
-  </a>
+  <div class="title">
+    <a href="{{post.url | absolute_url}}">
+      {{post.title}}  
+    </a>
+  </div>
+  <div class="date">
+    {{ post.date | date: "%Y/%m/%d" }}
+  </div>
+  
 </div>
 
 {% endfor %}
