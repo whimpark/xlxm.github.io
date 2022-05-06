@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+
+<div class="post-item"  >
+ 
+  <a href="{{post.url | absolute_url}}">
+    {{ post.date | date: "%-B %d, %Y" }}
+        {{post.title}} 
+  </a>
+</div>
+
+
+
+{% endfor %}

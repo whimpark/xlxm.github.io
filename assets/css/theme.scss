@@ -1,32 +1,31 @@
 ---
 ---
 
+body{
+    padding:0px;
+    margin: 0px;
+};
 
 
 
 .layout_default_body{
-
+    display: flex;
+    flex-direction: column;
     .content{
         color: #333;
-        background-color: #fff;
-
+        background-color: #fff; 
         &_before{
             height: 100px;
             color: #fff;
             background-color: #333;
         }
-        &_after{
+        &_after{ 
             height: 60px;
-            color: #fff;
-            background-color: #333;
+            color: #333;
+            background-color: #fff;
+            border-top: 2px #333 solid;
         }
     }
 
-
-
-
 }
-
-
-
 
