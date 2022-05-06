@@ -1,1 +1,24 @@
 theme: jekyll-theme-slate
+
+
+
+
+
+site:
+  title: xlxm
+  keywords: xlxm
+
+
+
+
+# Compress
+compress.html:
+  clippings: all
+
+
+
+
+
+
+
+
