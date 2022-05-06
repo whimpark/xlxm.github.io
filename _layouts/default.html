@@ -6,8 +6,12 @@ layout: compress
 <html>
 {% include head.html %}
 
-<body>
-{{content}}
+<body class="layout_default_body">
+  <div class="content_before"></div>
+  <div class="content">
+    {{content}}
+  </div>
+  <div class="content_after"></div>
 </body>
 <script>
 

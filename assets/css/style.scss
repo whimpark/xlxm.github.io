@@ -1,0 +1,32 @@
+---
+---
+
+
+
+
+.layout_default_body{
+
+    .content{
+        color: #333;
+        background-color: #fff;
+
+        &_before{
+            height: 100px;
+            color: #fff;
+            background-color: #333;
+        }
+        &_after{
+            height: 60px;
+            color: #fff;
+            background-color: #333;
+        }
+    }
+
+
+
+
+}
+
+
+
+
