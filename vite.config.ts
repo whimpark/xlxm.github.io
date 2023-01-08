@@ -67,6 +67,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         admin: resolve(__dirname, 'web/admin/index.html') ,
+        home: resolve(__dirname, 'web/home/index.html') ,
         vite: resolve(__dirname, 'web/vite/index.html') 
       },
       output: {
