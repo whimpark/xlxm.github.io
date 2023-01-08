@@ -3,7 +3,7 @@ import { defineStore } from 'pinia';
 export const useHeaderStore = defineStore('header', {
 	state: () => {
 		return {
-			selectValue: "None"
+			selectValue: "首页"
 		};
 	},
 	getters: {},

@@ -10,7 +10,7 @@
     active-text-color="#ffd04b"
     @select="handleSelect"
   >
-    <el-menu-item index="西岭项目">西岭项目</el-menu-item>
+    <el-menu-item index="首页">西岭项目</el-menu-item>
     <div class="flex-grow" />
     <el-sub-menu index="解决方案">
       <template #title>解决方案</template>
@@ -29,7 +29,7 @@ import { ref } from 'vue'
 import { useHeaderStore } from '../store/header';
 const headerStore=useHeaderStore()
 
-const activeIndex = ref('1')
+const activeIndex = ref('西岭项目')
 const handleSelect = (key: string, keyPath: string[]) => {
     headerStore.handleSelect(keyPath) 
 }

@@ -41,11 +41,12 @@ const tabPosition = ref('left')
 }
 
 .el-tabs--left .el-tabs__item{
-	width:160px;
+	width:130px;
 }
 
 .el-tabs--right .el-tabs__content,
 .el-tabs--left .el-tabs__content {
-  height: 100%;
+  min-width:300px;
+  /* height: 100%; */
 }
 </style>
