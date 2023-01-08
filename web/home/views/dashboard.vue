@@ -1,7 +1,7 @@
 <template>
  
 
-  <el-tabs :tab-position="tabPosition" style="height: 200px" class="demo-tabs">
+  <el-tabs :tab-position="tabPosition"  class="demo-tabs">
     <el-tab-pane label="管理系统示例一">
 		管理系统示例一<br><br>
 		
