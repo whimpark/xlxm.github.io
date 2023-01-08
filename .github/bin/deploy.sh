@@ -5,5 +5,5 @@
 npm install
 npm run build
 
-echo "<meta http-equiv=\"Refresh\" content=\"url=./web/home/\">" >./dist/index.html
+echo "<meta http-equiv=\"Refresh\" content=\"0; url=./web/home/\">" >./dist/index.html
 
