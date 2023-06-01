@@ -20,7 +20,7 @@
   </el-tabs>
 
   <div class="icp-line">
-    粤ICP备2023021385号-1
+    <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">粤ICP备2023021385号-1</a>
   </div>
 </div>
 
