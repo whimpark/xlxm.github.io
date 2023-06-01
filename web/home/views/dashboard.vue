@@ -1,6 +1,6 @@
 <template>
- 
 
+<div>
   <el-tabs :tab-position="tabPosition"  class="demo-tabs">
     <el-tab-pane label="管理系统示例一">
 		管理系统示例一<br><br>
@@ -19,6 +19,10 @@
 	</el-tab-pane>
   </el-tabs>
 
+  <div class="icp-line">
+    粤ICP备2023021385号-1
+  </div>
+</div>
 
 </template>
 <script lang="ts" setup>
@@ -48,5 +52,9 @@ const tabPosition = ref('left')
 .el-tabs--left .el-tabs__content {
   min-width:300px;
   /* height: 100%; */
+}
+
+.icp-line{
+  text-align: center;
 }
 </style>
